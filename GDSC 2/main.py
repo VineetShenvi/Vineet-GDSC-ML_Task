@@ -2,6 +2,7 @@ expression= input("Enter an expression (or 'q' to quit): ")
 expression = expression.replace(',', '')
 expression = expression.replace(' ', '')
 expression = expression.replace('x', '*')
+expression = expression.replace('=', '')
 expression = expression.replace('^', '**')
 
 valid_characters = "+-?*/()."
